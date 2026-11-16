@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img">
+  <rect width="100%" height="100%" fill="#f7f4ee"/>
+  <rect x="28" y="28" width="1144" height="744" fill="none" stroke="#1b2430" stroke-opacity="0.18" stroke-width="1"/>
+  <rect x="36" y="36" width="1128" height="728" fill="none" stroke="#8a3b32" stroke-opacity="0.35" stroke-width="1.2"/>
+  
+  <text x="64" y="90" fill="#8a3b32" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="4">ORDER  OF  MAGNITUDE  ·  NOT  A  SCOREBOARD</text>
+  <text x="64" y="140" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="32">实心是官方公布，阴影是外部估计</text>
+  <g transform="translate(80,200)">
+    <rect x="0" y="0" width="22" height="22" fill="#8a7348"/>
+    <text x="32" y="16" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="16">官方公布 Official announcement</text>
+    <rect x="360" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+    <line x1="360" y1="22" x2="382" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+    <text x="392" y="16" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="16">外部估计 External estimate</text>
+  </g>
+  <g transform="translate(80,270)">
+<rect x="0" y="0" width="22" height="22" fill="#8a7348"/>
+<rect x="28" y="0" width="22" height="22" fill="#8a7348"/>
+<rect x="56" y="0" width="22" height="22" fill="#8a7348"/>
+<rect x="84" y="0" width="22" height="22" fill="#8a7348"/>
+<rect x="112" y="0" width="22" height="22" fill="#8a7348"/>
+<rect x="140" y="0" width="22" height="22" fill="#8a7348"/>
+<rect x="168" y="0" width="22" height="22" fill="#8a7348"/>
+<rect x="196" y="0" width="22" height="22" fill="#8a7348"/>
+<rect x="224" y="0" width="22" height="22" fill="#8a7348"/>
+<rect x="252" y="0" width="22" height="22" fill="#8a7348"/>
+<rect x="0" y="28" width="22" height="22" fill="#8a7348"/>
+<rect x="28" y="28" width="22" height="22" fill="#8a7348"/>
+<rect x="56" y="28" width="22" height="22" fill="#8a7348"/>
+<rect x="84" y="28" width="22" height="22" fill="#8a7348"/>
+<rect x="112" y="28" width="22" height="22" fill="#8a7348"/>
+<rect x="140" y="28" width="22" height="22" fill="#8a7348"/>
+<rect x="168" y="28" width="22" height="22" fill="#8a7348"/>
+<rect x="196" y="28" width="22" height="22" fill="#8a7348"/>
+<rect x="224" y="28" width="22" height="22" fill="#8a7348"/>
+<rect x="252" y="28" width="22" height="22" fill="#8a7348"/>
+<text x="0" y="80" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="16">2026 官方国防预算 1.94 万亿元</text>
+<text x="0" y="100" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11">Official 2026 national general public budget  ·  NPC / MoD</text>
+</g>
+  <g transform="translate(80,460)">
+<rect x="0" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="0" y1="22" x2="22" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="0" y1="11.0" x2="11.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="28" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="28" y1="22" x2="50" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="28" y1="11.0" x2="39.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="56" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="56" y1="22" x2="78" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="56" y1="11.0" x2="67.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="84" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="84" y1="22" x2="106" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="84" y1="11.0" x2="95.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="112" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="112" y1="22" x2="134" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="112" y1="11.0" x2="123.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="140" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="140" y1="22" x2="162" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="140" y1="11.0" x2="151.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="168" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="168" y1="22" x2="190" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="168" y1="11.0" x2="179.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="196" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="196" y1="22" x2="218" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="196" y1="11.0" x2="207.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="0" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="0" y1="50" x2="22" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="0" y1="39.0" x2="11.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="28" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="28" y1="50" x2="50" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="28" y1="39.0" x2="39.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="56" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="56" y1="50" x2="78" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="56" y1="39.0" x2="67.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="84" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="84" y1="50" x2="106" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="84" y1="39.0" x2="95.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="112" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="112" y1="50" x2="134" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="112" y1="39.0" x2="123.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="140" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="140" y1="50" x2="162" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="140" y1="39.0" x2="151.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="168" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="168" y1="50" x2="190" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="168" y1="39.0" x2="179.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="196" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="196" y1="50" x2="218" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="196" y1="39.0" x2="207.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<text x="0" y="80" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="16">SIPRI 2025 估计约 3360 亿美元</text>
+<text x="0" y="100" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11">SIPRI estimate for 2025  ·  broader definition, not a 2026 figure</text>
+</g>
+  <g transform="translate(640,270)">
+<rect x="0" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="0" y1="22" x2="22" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="0" y1="11.0" x2="11.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="28" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="28" y1="22" x2="50" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="28" y1="11.0" x2="39.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="56" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="56" y1="22" x2="78" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="56" y1="11.0" x2="67.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="84" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="84" y1="22" x2="106" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="84" y1="11.0" x2="95.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="112" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="112" y1="22" x2="134" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="112" y1="11.0" x2="123.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="140" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="140" y1="22" x2="162" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="140" y1="11.0" x2="151.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="168" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="168" y1="22" x2="190" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="168" y1="11.0" x2="179.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="196" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="196" y1="22" x2="218" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="196" y1="11.0" x2="207.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="224" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="224" y1="22" x2="246" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="224" y1="11.0" x2="235.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="252" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="252" y1="22" x2="274" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="252" y1="11.0" x2="263.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="0" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="0" y1="50" x2="22" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="0" y1="39.0" x2="11.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="28" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="28" y1="50" x2="50" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="28" y1="39.0" x2="39.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="56" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="56" y1="50" x2="78" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="56" y1="39.0" x2="67.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="84" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="84" y1="50" x2="106" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="84" y1="39.0" x2="95.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="112" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="112" y1="50" x2="134" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="112" y1="39.0" x2="123.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="140" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="140" y1="50" x2="162" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="140" y1="39.0" x2="151.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="168" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="168" y1="50" x2="190" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="168" y1="39.0" x2="179.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="196" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="196" y1="50" x2="218" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="196" y1="39.0" x2="207.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="224" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="224" y1="50" x2="246" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="224" y1="39.0" x2="235.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="252" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="252" y1="50" x2="274" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="252" y1="39.0" x2="263.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<text x="0" y="80" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="16">现役约 200 万人量级</text>
+<text x="0" y="100" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11">IISS Military Balance 2026, open summaries  ·  ~2.035 million</text>
+</g>
+  <g transform="translate(640,460)">
+<rect x="0" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="0" y1="22" x2="22" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="0" y1="11.0" x2="11.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="28" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="28" y1="22" x2="50" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="28" y1="11.0" x2="39.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="56" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="56" y1="22" x2="78" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="56" y1="11.0" x2="67.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="84" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="84" y1="22" x2="106" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="84" y1="11.0" x2="95.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="112" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="112" y1="22" x2="134" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="112" y1="11.0" x2="123.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="140" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="140" y1="22" x2="162" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="140" y1="11.0" x2="151.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="168" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="168" y1="22" x2="190" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="168" y1="11.0" x2="179.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="196" y="0" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="196" y1="22" x2="218" y2="0" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="196" y1="11.0" x2="207.0" y2="0" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="0" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="0" y1="50" x2="22" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="0" y1="39.0" x2="11.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="28" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="28" y1="50" x2="50" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="28" y1="39.0" x2="39.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="56" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="56" y1="50" x2="78" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="56" y1="39.0" x2="67.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="84" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="84" y1="50" x2="106" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="84" y1="39.0" x2="95.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="112" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="112" y1="50" x2="134" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="112" y1="39.0" x2="123.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="140" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="140" y1="50" x2="162" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="140" y1="39.0" x2="151.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="168" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="168" y1="50" x2="190" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="168" y1="39.0" x2="179.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<rect x="196" y="28" width="22" height="22" fill="#c5d0d6" stroke="#5b6f7c"/>
+<line x1="196" y1="50" x2="218" y2="28" stroke="#5b6f7c" stroke-width="1.4"/>
+<line x1="196" y1="39.0" x2="207.0" y2="28" stroke="#5b6f7c" stroke-width="1.2"/>
+<text x="0" y="80" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="16">海军战斗舰艇与潜艇 370 艘以上</text>
+<text x="0" y="100" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11">US DoD 2024 public report  ·  estimate; no newer hull count invented</text>
+</g>
+  
+  <g transform="translate(1060,120) rotate(-12)">
+    <circle r="34" fill="none" stroke="#8a3b32" stroke-width="2.4"/>
+    <circle r="28" fill="none" stroke="#8a3b32" stroke-width="0.8"/>
+    <text text-anchor="middle" y="6" fill="#8a3b32" font-family="Noto Serif SC, Songti SC, serif" font-size="18" letter-spacing="4">示意</text>
+  </g>
+  
+  <text x="64" y="760" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="2">单位与口径不同，不可叠成记分牌</text>
+  <text x="64" y="778" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1">Units and definitions differ; this is not a scoreboard</text>
+
+
+</svg>

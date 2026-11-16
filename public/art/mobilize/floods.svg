@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-hidden="true">
+  <defs>
+    <style>
+      .ink { font-family: "Noto Serif SC", "EB Garamond", "Songti SC", serif; fill: #2a160c; }
+      .ink-soft { font-family: "Noto Serif SC", "EB Garamond", "Songti SC", serif; fill: #5a3a22; }
+    </style>
+  </defs>
+  <!-- broad river -->
+  <path d="M-10 230 C 110 160, 210 310, 330 230 C 450 155, 540 310, 650 220 L 650 330 C 540 410, 450 250, 330 335 C 210 410, 110 260, -10 330 Z" fill="#2a160c" opacity=".13"/>
+  <path d="M-10 248 C 110 180, 210 322, 330 248 C 450 178, 540 322, 650 238" fill="none" stroke="#2a160c" stroke-width="10" stroke-linecap="round" opacity=".2"/>
+  <path d="M-10 228 C 110 160, 210 308, 330 228 C 450 154, 540 308, 650 218" fill="none" stroke="#2a160c" stroke-width="2" opacity=".7"/>
+  <!-- dikes -->
+  <path d="M10 200 C 130 136, 230 276, 340 198 C 450 128, 540 274, 630 190" fill="none" stroke="#2a160c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M16 350 C 136 410, 234 274, 346 356 C 454 422, 544 280, 636 348" fill="none" stroke="#2a160c" stroke-width="1.8" stroke-dasharray="8 6" opacity=".75"/>
+
+  <!-- Three Gorges mountains + later dam -->
+  <g transform="translate(16,40)">
+    <path d="M6 150 C 36 70, 78 50, 108 120 C 128 50, 180 48, 210 150 Z" fill="#2a160c" opacity=".16" stroke="#2a160c" stroke-width="1.5"/>
+    <path d="M54 150 C 80 100, 110 96, 140 150" fill="#2a160c" opacity=".08"/>
+    <path d="M88 150 V 104 H 142 V 150" fill="#2a160c" opacity=".1" stroke="#2a160c" stroke-width="1.6"/>
+    <path d="M88 116 H 142 M 88 128 H 142 M 88 140 H 142" stroke="#2a160c" stroke-width=".9" opacity=".7"/>
+    <text class="ink" x="116" y="178" text-anchor="middle" font-size="15">三峡</text>
+    <text class="ink-soft" x="116" y="196" text-anchor="middle" font-size="11">后来的工程</text>
+  </g>
+
+  <!-- Jingjiang / Shashi + typological figures on the dike -->
+  <g transform="translate(250,48)">
+    <text class="ink" x="70" y="28" text-anchor="middle" font-size="18">荆江 / 沙市</text>
+    <text class="ink-soft" x="70" y="48" text-anchor="middle" font-size="13">45.22 m</text>
+    <path d="M40 168 L 70 132 L 100 168" fill="none" stroke="#2a160c" stroke-width="1.5"/>
+    <path d="M8 168 H 132" stroke="#2a160c" stroke-width="2" stroke-linecap="round"/>
+    <g fill="none" stroke="#2a160c" stroke-width="1.25">
+      <circle cx="28" cy="150" r="4.2"/><path d="M28 155 v 13"/>
+      <circle cx="52" cy="146" r="4.2"/><path d="M52 151 v 15"/>
+      <circle cx="76" cy="148" r="4.2"/><path d="M76 153 v 14"/>
+      <circle cx="100" cy="150" r="4.2"/><path d="M100 155 v 13"/>
+    </g>
+  </g>
+
+  <!-- Wuhan · Jiujiang -->
+  <g transform="translate(460,44)">
+    <text class="ink" x="80" y="28" text-anchor="middle" font-size="18">武汉 · 九江</text>
+    <path d="M16 168 C 30 128, 60 118, 84 150 C 100 118, 140 124, 164 168 Z" fill="#2a160c" opacity=".12" stroke="#2a160c" stroke-width="1.3"/>
+    <path d="M64 168 V 136 M 58 144 H 96" stroke="#2a160c" stroke-width="1.15"/>
+    <circle cx="124" cy="148" r="4" fill="#2a160c" opacity=".55"/>
+  </g>
+
+  <text class="ink" x="320" y="450" text-anchor="middle" font-size="14">部队上堤 · 分洪区转移（分洪未启用）</text>
+  <text class="ink-soft" x="320" y="474" text-anchor="middle" font-size="12">长江中游防线示意 · 1998</text>
+</svg>

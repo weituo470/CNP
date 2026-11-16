@@ -1,0 +1,601 @@
+/* 2026 baseline lore surface — torn 卷宗 paper, laid flat at the center.
+   Official voice: cream dossier sheet. External estimates: cool-gray hatched sheet.
+   Motion matches Chapter I parchment (720ms settle / 420ms lift + fade).
+   Does not reuse Chapter I bamboo or parchment-sheet.webp. */
+
+@import './codex.css';
+
+.baseline-codex {
+  --dossier-paper: #f3efe4;
+  --dossier-ink: #1b2430;
+  --dossier-ink-soft: #4a5562;
+  --dossier-rule: #8a3b32;
+  --estimate-paper: #e7edf2;
+  --estimate-ink: #1c2a34;
+  --estimate-band: #5b6f7c;
+}
+
+.baseline-stage {
+  width: min(1080px, 92vw);
+  transform-origin: 50% 50%;
+}
+
+.baseline-stage.is-compact {
+  width: min(900px, 84vw);
+}
+
+.baseline-stage.is-opening {
+  animation: baseline-sheet-settle .72s cubic-bezier(.18, .75, .2, 1) both;
+}
+
+.baseline-stage.is-closing {
+  animation: baseline-sheet-lift .42s ease both;
+}
+
+@keyframes baseline-sheet-settle {
+  0% {
+    opacity: 0;
+    transform: translateY(18px) scale(.97);
+    filter: brightness(.92);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes baseline-sheet-lift {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px) scale(.98);
+  }
+}
+
+.baseline-paper {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 2000 / 1208;
+  height: auto;
+  background: url("/art/baseline2026/dossier-sheet.webp") center / 100% 100% no-repeat;
+  filter:
+    drop-shadow(0 22px 36px rgba(0, 0, 0, .62))
+    drop-shadow(0 4px 8px rgba(0, 0, 0, .4));
+}
+
+.baseline-paper.is-estimate {
+  background-image: url("/art/baseline2026/estimate-sheet.webp");
+}
+
+.baseline-paper-sheet {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 9.4% 11.2% 9.8% 10.8%;
+  overflow: hidden;
+  color: var(--dossier-ink);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.baseline-paper.is-estimate .baseline-paper-sheet {
+  color: var(--estimate-ink);
+}
+
+.baseline-paper-split {
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.55em 1.3em;
+  min-height: 0;
+  align-items: start;
+}
+
+.baseline-paper.has-plate .baseline-paper-split {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.06fr);
+  align-items: stretch;
+}
+
+.baseline-copy {
+  min-width: 0;
+}
+
+.baseline-paper-sheet .codex-material-tag {
+  color: var(--dossier-rule);
+}
+
+.baseline-paper.is-estimate .codex-material-tag {
+  color: var(--estimate-band);
+}
+
+.baseline-paper-sheet .codex-kicker {
+  margin: 0 0 4px;
+  color: var(--dossier-rule);
+  font-family: "IBM Plex Mono", Consolas, monospace;
+  font-size: 11px;
+  font-style: normal;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.baseline-paper.is-estimate .codex-kicker {
+  color: var(--estimate-band);
+}
+
+.baseline-paper-sheet .codex-title {
+  margin: 0 0 8px;
+  color: var(--dossier-ink);
+  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", serif;
+  font-size: clamp(22px, 2.3vw, 34px);
+  font-weight: 600;
+  letter-spacing: .06em;
+  line-height: 1.25;
+}
+
+.baseline-paper.is-estimate .codex-title {
+  color: var(--estimate-ink);
+}
+
+.baseline-paper-sheet .codex-aside,
+.baseline-paper-sheet .codex-spoken,
+.baseline-paper-sheet .codex-geo-caution,
+.baseline-paper-sheet .codex-plate-caption,
+.baseline-paper-sheet .codex-overlay-caption {
+  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", Inter, serif;
+}
+
+.baseline-paper-sheet .codex-spoken {
+  color: var(--dossier-ink);
+  text-shadow: none;
+}
+
+.baseline-paper.is-estimate .codex-spoken {
+  color: var(--estimate-ink);
+}
+
+.baseline-paper-sheet .codex-geo-caution,
+.baseline-paper-sheet .codex-plate-caption {
+  color: rgba(70, 80, 90, .7);
+}
+
+/* Paintings sit in the paper — no boxed frame, no hanging inset. */
+.baseline-plate {
+  margin: 0;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.baseline-plate figure {
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+  overflow: hidden;
+}
+
+.baseline-plate img,
+.baseline-plate[data-aspect="3:4"] img,
+.baseline-plate[data-aspect="4:3"] img {
+  width: 100%;
+  height: auto;
+  max-height: min(36vh, 400px);
+  object-fit: contain;
+  background: transparent;
+  mix-blend-mode: multiply;
+  filter: contrast(1.08) brightness(1.02) saturate(.78);
+}
+
+.baseline-paper.is-estimate .baseline-plate img {
+  filter: contrast(1.06) brightness(1.04) saturate(.62) hue-rotate(8deg);
+}
+
+.baseline-plate .codex-overlay-caption {
+  position: static;
+  padding: 4px 2px 0;
+  background: none;
+  color: var(--dossier-ink-soft);
+  text-shadow: none;
+}
+
+.baseline-card blockquote {
+  margin: 10px 0 0;
+  padding: 8px 0 0;
+  border-top: 1px dashed rgba(192, 218, 224, .2);
+  color: rgba(232, 236, 231, .7);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.baseline-seal {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 92px;
+  min-height: 92px;
+  padding: 8px 10px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.baseline-seal-face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: 3px solid #9b2c2c;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(155, 44, 44, .08), transparent 62%),
+    #f4efe4;
+  box-shadow:
+    inset 0 0 0 6px rgba(155, 44, 44, .12),
+    0 6px 14px rgba(0, 0, 0, .28);
+  color: #9b2c2c;
+  font-family: "Noto Serif SC", "Songti SC", serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .18em;
+  transform: rotate(-8deg);
+  transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
+}
+
+.baseline-seal-face em {
+  font-style: normal;
+  max-width: 4.5em;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.baseline-seal:hover:not(:disabled) .baseline-seal-face,
+.baseline-seal:focus-visible .baseline-seal-face {
+  filter: brightness(1.06);
+  transform: rotate(-8deg) translateY(-1px);
+  box-shadow:
+    inset 0 0 0 6px rgba(155, 44, 44, .16),
+    0 0 0 1px rgba(217, 181, 116, .45),
+    0 10px 18px rgba(0, 0, 0, .35);
+}
+
+.baseline-seal:focus-visible { outline: none; }
+
+.baseline-seal:disabled {
+  cursor: default;
+  opacity: .45;
+}
+
+.baseline-seal.is-playing .baseline-seal-face {
+  background:
+    radial-gradient(circle at 50% 50%, rgba(155, 44, 44, .18), transparent 62%),
+    #f0e4d6;
+  box-shadow:
+    inset 0 0 0 6px rgba(155, 44, 44, .2),
+    0 0 0 1px rgba(155, 44, 44, .35),
+    0 6px 14px rgba(0, 0, 0, .28);
+}
+
+.journey-globe-label.is-baseline {
+  min-width: 0;
+}
+
+.journey-globe-label.is-baseline strong {
+  letter-spacing: .08em;
+}
+
+.journey-globe-label.is-baseline.is-compare {
+  min-width: 0;
+  max-width: 118px;
+  padding: 4px 7px 5px;
+  border-color: rgba(200, 216, 222, .28);
+  background: rgba(8, 16, 22, .78);
+}
+
+.journey-globe-label.is-baseline.is-compare strong {
+  font-size: 11px;
+  letter-spacing: .06em;
+  white-space: nowrap;
+}
+
+.journey-globe-label.is-baseline.is-compare span {
+  margin-top: 1px;
+  font-size: 8px;
+  letter-spacing: .04em;
+  white-space: nowrap;
+}
+
+.baseline-label-gate {
+  transition: opacity .2s ease;
+}
+
+.baseline-compare-legend {
+  position: absolute;
+  left: 38px;
+  top: auto;
+  bottom: max(176px, calc(env(safe-area-inset-bottom) + 158px));
+  z-index: 8;
+  width: min(220px, 22vw);
+  padding: 10px 12px 11px;
+  border: 1px solid rgba(188, 208, 216, .22);
+  color: rgba(236, 240, 242, .92);
+  background: rgba(10, 18, 24, .72);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, .32);
+  backdrop-filter: blur(10px);
+  pointer-events: none;
+}
+
+.baseline-compare-legend small {
+  display: block;
+  margin-bottom: 8px;
+  color: rgba(196, 214, 215, .7);
+  font-family: "IBM Plex Mono", Consolas, monospace;
+  font-size: 10px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.baseline-compare-legend ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.baseline-compare-legend li {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  margin: 0 0 7px;
+}
+
+.baseline-compare-legend i,
+.baseline-compare-swatches i,
+.baseline-compare-row b {
+  display: block;
+  flex: 0 0 auto;
+  background-image: repeating-linear-gradient(135deg, rgba(12, 22, 32, .55) 0 1px, transparent 1px 5px);
+}
+
+.baseline-compare-legend i {
+  width: 10px;
+  height: 22px;
+  margin-top: 1px;
+  border: 1px solid rgba(12, 22, 32, .35);
+}
+
+.baseline-compare-legend i.is-personnel,
+.baseline-compare-swatches i.is-personnel,
+.baseline-compare-row .is-personnel b { background-color: #8fb4c6; }
+
+.baseline-compare-legend i.is-spending,
+.baseline-compare-swatches i.is-spending,
+.baseline-compare-row .is-spending b { background-color: #c4a36a; }
+
+.baseline-compare-legend i.is-aircraft,
+.baseline-compare-swatches i.is-aircraft,
+.baseline-compare-row .is-aircraft b { background-color: #8aa392; }
+
+.baseline-compare-legend span {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.baseline-compare-legend b {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  background: none;
+}
+
+.baseline-compare-legend em {
+  color: rgba(196, 214, 215, .62);
+  font-size: 10px;
+  font-style: normal;
+  line-height: 1.35;
+}
+
+.baseline-compare-legend p {
+  margin: 6px 0 0;
+  color: rgba(196, 214, 215, .7);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+/* Comparison chart is a painting printed on the estimate sheet, not a UI card. */
+.baseline-compare-chart {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.baseline-compare-kicker {
+  margin: 0 0 6px;
+  color: var(--estimate-band);
+  font-family: "IBM Plex Mono", Consolas, monospace;
+  font-size: 9px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.baseline-compare-swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin: 0 0 8px;
+  padding: 0;
+  list-style: none;
+}
+
+.baseline-compare-swatches li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--estimate-ink);
+  font-size: 10px;
+}
+
+.baseline-compare-swatches i {
+  width: 8px;
+  height: 12px;
+  border: 1px solid rgba(12, 22, 32, .28);
+}
+
+.baseline-compare-table {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.baseline-compare-head,
+.baseline-compare-row {
+  display: grid;
+  grid-template-columns: minmax(64px, 0.8fr) 1.15fr 1.35fr 1.05fr;
+  gap: 6px;
+  align-items: center;
+}
+
+.baseline-compare-head {
+  padding: 0 2px 3px;
+  color: var(--estimate-band);
+  font-family: "IBM Plex Mono", Consolas, monospace;
+  font-size: 8px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.baseline-compare-row {
+  margin: 0;
+  padding: 2px 2px 3px;
+  border: 0;
+  border-bottom: 1px solid rgba(91, 111, 124, .16);
+  border-radius: 0;
+  color: var(--estimate-ink);
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.baseline-compare-row:hover,
+.baseline-compare-row:focus-visible {
+  background: rgba(91, 111, 124, .08);
+  outline: none;
+}
+
+.baseline-compare-row.is-active {
+  background: rgba(91, 111, 124, .12);
+}
+
+.baseline-compare-row strong {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .04em;
+}
+
+.baseline-compare-row strong em {
+  color: var(--estimate-band);
+  font-family: "IBM Plex Mono", Consolas, monospace;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.baseline-compare-row span[role="cell"] {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.baseline-compare-row b {
+  height: 6px;
+  max-width: 100%;
+  border: 1px solid rgba(12, 22, 32, .18);
+}
+
+.baseline-compare-row small {
+  color: var(--estimate-ink);
+  font-family: "IBM Plex Mono", Consolas, monospace;
+  font-size: 9px;
+  letter-spacing: .01em;
+  line-height: 1.25;
+}
+
+.baseline-compare-chart footer p {
+  margin: 6px 0 0;
+  color: var(--estimate-ink);
+  font-size: 10px;
+  line-height: 1.5;
+  opacity: .86;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .baseline-stage,
+  .baseline-paper,
+  .baseline-seal-face,
+  .baseline-label-gate,
+  .baseline-compare-row b {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .baseline-compare-legend {
+    left: 16px;
+    width: min(200px, 24vw);
+  }
+}
+
+@media (max-width: 900px) {
+  .baseline-paper.has-plate .baseline-paper-split {
+    grid-template-columns: 1fr;
+  }
+  .baseline-plate img,
+  .baseline-plate[data-aspect="3:4"] img,
+  .baseline-plate[data-aspect="4:3"] img {
+    max-height: min(22vh, 220px);
+  }
+}
+
+@media (max-width: 720px) {
+  .baseline-compare-legend { display: none; }
+  .baseline-compare-head,
+  .baseline-compare-row {
+    grid-template-columns: 56px 1fr;
+    gap: 2px 6px;
+  }
+  .baseline-compare-head span:nth-child(n+2),
+  .baseline-compare-row span[role="cell"] {
+    grid-column: 2;
+  }
+  .baseline-stage,
+  .baseline-stage.is-compact {
+    width: min(100vw, 100%);
+  }
+}
+
+@media (max-height: 740px) {
+  .baseline-seal { min-width: 76px; min-height: 76px; }
+  .baseline-seal-face { width: 72px; height: 72px; font-size: 12px; }
+}

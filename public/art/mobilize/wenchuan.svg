@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-hidden="true">
+  <defs>
+    <style>
+      .ink { font-family: "Noto Serif SC", "EB Garamond", "Songti SC", serif; fill: #2a160c; }
+      .ink-soft { font-family: "Noto Serif SC", "EB Garamond", "Songti SC", serif; fill: #5a3a22; }
+    </style>
+  </defs>
+  <!-- layered mountain washes -->
+  <path d="M-10 250 C 70 130, 150 150, 220 230 C 270 90, 370 80, 430 220 C 480 110, 560 130, 650 230 L 650 310 L -10 310 Z" fill="#2a160c" opacity=".1"/>
+  <path d="M-10 256 C 70 140, 150 158, 220 236 C 270 100, 370 90, 430 226 C 480 120, 560 138, 650 236" fill="none" stroke="#2a160c" stroke-width="1.7"/>
+  <path d="M40 280 C 140 200, 200 210, 260 270 C 310 190, 390 200, 450 268" fill="#2a160c" opacity=".08"/>
+  <path d="M20 340 C 140 310, 250 370, 380 330 C 500 294, 580 350, 650 320 L 650 500 L 20 500 Z" fill="#2a160c" opacity=".06"/>
+  <path d="M20 342 C 140 312, 250 372, 380 332 C 500 296, 580 352, 650 322" fill="none" stroke="#2a160c" stroke-width="1.15" opacity=".4"/>
+
+  <!-- pairing strokes from the west, brush-like varying width via overlapping paths -->
+  <path d="M10 70 C 180 120, 300 200, 448 252" fill="none" stroke="#7a2a18" stroke-width="1.7" opacity=".55"/>
+  <path d="M16 70 C 184 118, 302 198, 448 252" fill="none" stroke="#7a2a18" stroke-width=".7" opacity=".45"/>
+  <path d="M14 140 C 190 164, 310 224, 448 256" fill="none" stroke="#7a2a18" stroke-width="1.5" opacity=".5"/>
+  <path d="M22 210 C 190 214, 310 244, 448 258" fill="none" stroke="#7a2a18" stroke-width="1.35" opacity=".45"/>
+  <path d="M60 400 C 200 350, 330 300, 410 278" fill="none" stroke="#2a160c" stroke-width="2.4" opacity=".6"/>
+  <path d="M60 402 C 200 352, 330 302, 410 280" fill="none" stroke="#2a160c" stroke-width="1" opacity=".4"/>
+  <path d="M402 274 l 16 4 l -10 10" fill="none" stroke="#2a160c" stroke-width="1.7" stroke-linejoin="round"/>
+
+  <text class="ink-soft" x="36" y="58" font-size="13">对口省市（示意）</text>
+  <text class="ink-soft" x="48" y="430" font-size="13">投送通道示意</text>
+
+  <g transform="translate(300,318)">
+    <path d="M0 40 L 28 8 L 56 40 Z" fill="#2a160c" opacity=".14" stroke="#2a160c" stroke-width="1.25"/>
+    <path d="M8 40 V 56 H 48 V 40" fill="#2a160c" opacity=".06" stroke="#2a160c" stroke-width="1.15"/>
+    <text class="ink" x="28" y="78" text-anchor="middle" font-size="15">成都</text>
+  </g>
+
+  <g transform="translate(430,228)">
+    <circle cx="28" cy="28" r="22" fill="#7a2a18" opacity=".08" stroke="#7a2a18" stroke-width="1.7"/>
+    <circle cx="28" cy="28" r="4.5" fill="#7a2a18"/>
+    <text class="ink" x="28" y="66" text-anchor="middle" font-size="16" fill="#7a2a18">映秀</text>
+  </g>
+
+  <text class="ink" x="545" y="248" text-anchor="middle" font-size="15">一省帮一重灾县</text>
+  <text class="ink-soft" x="320" y="492" text-anchor="middle" font-size="13">投送与对口援建示意 · 2008</text>
+</svg>

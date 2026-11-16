@@ -1,0 +1,488 @@
+/* Korea chapter surfaces — a centered 20th-century operations brief
+   printed on a Diablo-like torn cream sheet (light aged paper, irregular
+   burnt edges). Same craft as Chapter I parchment: laid flat in the middle
+   of the frame, settles and lifts with a fade, illustrations sit ON the
+   sheet as typological story-paintings. Wooden rollers and boxed frames
+   are deliberately not used. Force classes are not overwritten. */
+
+.korea-shell {
+  --brief-paper: #f2e6cc;
+  --brief-paper-deep: #b08958;
+  --brief-ink: #2a160c;
+  --brief-ink-soft: #5a3a22;
+  --brief-blue: #2a3d55;
+  --mimeo: #2a1c10;
+  --olive: #5c4a28;
+  --stamp: #9c2b1a;
+  --stamp-soft: rgba(156, 43, 26, 0.82);
+  --gold: #d4b06a;
+}
+
+.korea-shell .journey-brand small,
+.korea-shell .journey-window {
+  color: rgba(198, 186, 120, 0.82);
+}
+
+.korea-codex {
+  position: absolute;
+  inset: 0;
+  z-index: 7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:
+    max(96px, calc(env(safe-area-inset-top) + 84px))
+    24px
+    max(168px, calc(env(safe-area-inset-bottom) + 156px));
+  pointer-events: none;
+}
+
+.korea-codex > * {
+  pointer-events: none;
+}
+
+.korea-vignette {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 50% 44%, transparent 28%, rgba(0, 0, 0, 0.42) 68%, rgba(0, 0, 0, 0.72) 100%);
+  opacity: 0.88;
+  transition: opacity 0.7s ease;
+}
+
+.korea-shell.is-cinematic .korea-vignette,
+.korea-codex:has(.korea-stage.is-playing) .korea-vignette {
+  opacity: 1;
+}
+
+.korea-stage {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: min(720px, 74vw);
+  max-height: 100%;
+  pointer-events: auto;
+  transform-origin: 50% 50%;
+}
+
+.korea-stage.has-plate {
+  width: min(1080px, 92vw);
+}
+
+/* ---------- motion: settle / lift + fade, centered ---------- */
+
+.korea-stage.is-opening {
+  animation: korea-brief-settle 0.72s cubic-bezier(0.18, 0.75, 0.2, 1) both;
+}
+
+.korea-stage.is-closing {
+  animation: korea-brief-lift 0.42s ease both;
+}
+
+.korea-stage.is-static,
+.korea-stage.is-static.is-opening,
+.korea-stage.is-static.is-closing {
+  animation: none !important;
+  clip-path: none !important;
+  transform: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+@keyframes korea-brief-settle {
+  0% {
+    opacity: 0;
+    transform: translateY(18px) scale(0.97);
+    filter: brightness(0.92);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@keyframes korea-brief-lift {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+}
+
+/* ---------- Torn cream brief-sheet ---------- */
+
+.korea-brief {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 2000 / 1208;
+  height: auto;
+  background: url("/art/korea/brief-sheet.webp") center / 100% 100% no-repeat;
+  filter:
+    drop-shadow(0 22px 36px rgba(0, 0, 0, 0.62))
+    drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
+}
+
+.korea-brief-sheet {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 8.6% 10.6% 9.2% 10.4%;
+  overflow: hidden;
+  color: var(--brief-ink);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.korea-brief-split {
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.6em 1.4em;
+  min-height: 0;
+  align-items: start;
+}
+
+.korea-brief.has-plate .korea-brief-split {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.08fr);
+  align-items: stretch;
+}
+
+.korea-copy {
+  min-width: 0;
+}
+
+.korea-material-tag {
+  display: inline-block;
+  margin: 0 0 4px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: rgba(90, 50, 20, 0.62);
+  font-family: "IBM Plex Mono", Consolas, monospace;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.korea-kicker {
+  margin: 0 0 4px;
+  color: #6a3a18;
+  font-family: "EB Garamond", "Noto Serif SC", "Palatino Linotype", Palatino, serif;
+  font-size: 12px;
+  font-style: italic;
+  letter-spacing: 0.16em;
+  text-transform: none;
+}
+
+.korea-title {
+  margin: 0 0 10px;
+  color: var(--brief-ink);
+  font-family: "EB Garamond", "Noto Serif SC", "Palatino Linotype", Palatino, serif;
+  font-size: clamp(22px, 2.3vw, 34px);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  line-height: 1.2;
+}
+
+.korea-aside,
+.korea-spoken,
+.korea-geo-caution,
+.korea-plate-caption,
+.korea-overlay-caption {
+  font-family: "EB Garamond", "Noto Serif SC", "Palatino Linotype", Palatino, serif;
+}
+
+.korea-aside {
+  margin: 0 0 10px;
+  font-size: 12px;
+  line-height: 1.65;
+  opacity: 0.82;
+  color: var(--brief-ink-soft);
+  letter-spacing: 0.04em;
+}
+
+.korea-spoken {
+  margin: 0;
+  font-size: clamp(15px, 1.35vw, 18px);
+  letter-spacing: 0.04em;
+  line-height: 1.85;
+  color: #2a160c;
+  text-shadow: none;
+  text-wrap: pretty;
+}
+
+.korea-spoken.is-drop {
+  margin-top: 2px;
+}
+
+.korea-drop {
+  float: left;
+  margin: 0 8px 0 0;
+  color: #5a2010;
+  font-family: "EB Garamond", "Noto Serif SC", "Palatino Linotype", Palatino, serif;
+  font-size: 2.35em;
+  font-weight: 600;
+  line-height: 0.85;
+}
+
+.korea-geo-caution {
+  margin: 12px 0 0;
+  color: rgba(70, 48, 26, 0.7);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+/* Plates are printed on the sheet: no boxed frame, multiply into the paper. */
+
+.korea-plate {
+  margin: 0;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 0;
+  background: transparent;
+}
+
+.korea-plate figure {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+.korea-plate img,
+.korea-plate svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: min(38vh, 420px);
+  object-fit: contain;
+  background: transparent;
+  mix-blend-mode: multiply;
+  filter: sepia(0.42) contrast(1.18) brightness(1.06) saturate(0.58);
+}
+
+.korea-overlay-caption {
+  position: static;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  max-width: none;
+  padding: 6px 2px 0;
+  background: none;
+  border: 0;
+  color: #3a2416;
+  text-shadow: none;
+  font-size: 11px;
+  line-height: 1.45;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.korea-overlay-caption strong,
+.korea-plate figcaption strong {
+  display: block;
+  color: #3a2416;
+  font-family: "EB Garamond", "Noto Serif SC", "Palatino Linotype", Palatino, serif;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.korea-plate-caption {
+  margin: 8px 0 0;
+  padding: 0;
+  color: rgba(70, 48, 26, 0.78);
+  font-size: 11.5px;
+  letter-spacing: 0.03em;
+  line-height: 1.55;
+}
+
+.korea-plate-caption span {
+  display: block;
+  margin-top: 2px;
+  opacity: 0.8;
+}
+
+/* ---------- Footer / official stamp ---------- */
+
+.korea-footer {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 16px;
+  width: min(1080px, 92vw);
+  margin-top: 6px;
+  pointer-events: auto;
+}
+
+.korea-stamp {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 88px;
+  min-width: 88px;
+  min-height: 88px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  color: var(--stamp);
+}
+
+.korea-stamp:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.korea-stamp-ring {
+  position: absolute;
+  inset: 6px;
+  border: 3px solid var(--stamp-soft);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px rgba(156, 43, 26, 0.35);
+}
+
+.korea-stamp em {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Noto Serif SC", "Songti SC", serif;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-shadow: 0 0 0 currentColor;
+}
+
+.korea-stamp.is-playing .korea-stamp-ring {
+  animation: korea-stamp-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes korea-stamp-pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.06); opacity: 0.75; }
+}
+
+.korea-player-codex {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--ivory);
+}
+
+.korea-player-codex .codex-play-hint,
+.korea-player-codex .codex-play-error {
+  margin: 0;
+  max-width: 280px;
+  color: rgba(236, 214, 170, 0.78);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  line-height: 1.55;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.65);
+}
+
+.korea-player-codex .codex-play-error {
+  color: rgba(224, 186, 150, 0.9);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .korea-stage,
+  .korea-brief,
+  .korea-vignette,
+  .korea-stamp.is-playing .korea-stamp-ring {
+    animation: none !important;
+    transition: none !important;
+  }
+  .korea-stage {
+    clip-path: none !important;
+    transform: none !important;
+  }
+}
+
+@media (max-width: 720px) {
+  .korea-codex {
+    padding:
+      110px 14px
+      max(200px, calc(env(safe-area-inset-bottom) + 188px));
+  }
+
+  .korea-stage,
+  .korea-stage.has-plate,
+  .korea-footer {
+    width: min(100%, calc(100vw - 28px));
+  }
+
+  .korea-brief.has-plate .korea-brief-split {
+    grid-template-columns: 1fr;
+  }
+
+  .korea-plate img,
+  .korea-plate svg {
+    max-height: min(22vh, 180px);
+  }
+
+  .korea-title {
+    font-size: 22px;
+  }
+
+  .korea-spoken {
+    font-size: 14.5px;
+  }
+}
+
+@media (max-height: 740px) {
+  .korea-plate img,
+  .korea-plate svg {
+    max-height: min(22vh, 200px);
+  }
+
+  .korea-title {
+    font-size: 22px !important;
+  }
+
+  .korea-spoken {
+    font-size: 14px;
+  }
+
+  .korea-stamp,
+  .korea-stamp {
+    width: 76px;
+    height: 76px;
+    min-width: 76px;
+    min-height: 76px;
+  }
+
+  .korea-stamp em {
+    font-size: 12px;
+  }
+}
+
+.korea-shell[lang="en"] .korea-title {
+  letter-spacing: 0.03em;
+}

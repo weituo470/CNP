@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-hidden="true">
+  <defs>
+    <style>
+      .ink { font-family: "Noto Serif SC", "EB Garamond", "Songti SC", serif; fill: #2a160c; }
+      .ink-soft { font-family: "Noto Serif SC", "EB Garamond", "Songti SC", serif; fill: #5a3a22; }
+    </style>
+  </defs>
+  <ellipse cx="320" cy="490" rx="280" ry="28" fill="#2a160c" opacity=".08"/>
+  <!-- courtyard ground, not an org-chart T -->
+  <path d="M50 300 C 160 270, 250 290, 320 286 C 400 282, 500 270, 590 305 L 590 455 L 50 455 Z" fill="#2a160c" opacity=".05"/>
+  <path d="M80 318 C 180 296, 260 312, 320 310 C 390 308, 490 296, 560 322" fill="none" stroke="#2a160c" stroke-width="1.15" opacity=".35"/>
+
+  <!-- central hall, larger -->
+  <g transform="translate(188,18)">
+    <path d="M16 112 L 132 28 L 248 112" fill="#2a160c" opacity=".12" stroke="#2a160c" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M40 112 V 188 H 224 V 112" fill="#2a160c" opacity=".07" stroke="#2a160c" stroke-width="1.6"/>
+    <path d="M40 112 H 224" stroke="#2a160c" stroke-width="1.5"/>
+    <path d="M16 112 H 248" stroke="#2a160c" stroke-width="1.2" opacity=".7"/>
+    <path d="M84 188 V 128 H 116 V 188 M 148 188 V 128 H 180 V 188" fill="none" stroke="#2a160c" stroke-width="1.25"/>
+    <path d="M112 128 V 188 M 152 128 V 188" stroke="#2a160c" stroke-width=".8" opacity=".45"/>
+    <path d="M124 28 V 6" stroke="#2a160c" stroke-width="1.5"/>
+    <path d="M104 8 H 168" stroke="#2a160c" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M70 80 L 132 44 L 194 80" fill="none" stroke="#2a160c" stroke-width="1.1" opacity=".45"/>
+    <text class="ink" x="132" y="224" text-anchor="middle" font-size="18" fill="#7a2a18">应急管理部</text>
+    <text class="ink-soft" x="132" y="244" text-anchor="middle" font-size="11">Ministry of Emergency Management · 2018</text>
+  </g>
+
+  <!-- four courtyard emblems -->
+  <g transform="translate(36,318)">
+    <path d="M16 10 C 16 -4, 116 -4, 116 14 S 16 32, 16 16" fill="#6a4220" opacity=".14" stroke="#2a160c" stroke-width="1.35"/>
+    <path d="M22 30 C 22 16, 122 16, 122 34 S 22 52, 22 36" fill="#6a4220" opacity=".1" stroke="#2a160c" stroke-width="1.2"/>
+    <path d="M12 6 v 42" stroke="#2a160c" stroke-width="3.4" stroke-linecap="round"/>
+    <text class="ink" x="68" y="84" text-anchor="middle" font-size="14">总体与专项预案</text>
+    <text class="ink-soft" x="68" y="102" text-anchor="middle" font-size="10">Contingency plans</text>
+  </g>
+
+  <g transform="translate(196,322)">
+    <circle cx="60" cy="36" r="34" fill="#2a160c" opacity=".08" stroke="#2a160c" stroke-width="1.15"/>
+    <circle cx="60" cy="36" r="24" fill="none" stroke="#2a160c" stroke-width="1.2" opacity=".55"/>
+    <circle cx="60" cy="36" r="14" fill="none" stroke="#2a160c" stroke-width="1.35" opacity=".75"/>
+    <circle cx="60" cy="36" r="6" fill="#7a2a18" opacity=".75"/>
+    <text class="ink" x="60" y="92" text-anchor="middle" font-size="15">四级响应</text>
+    <text class="ink-soft" x="60" y="110" text-anchor="middle" font-size="10">Levels I–IV</text>
+  </g>
+
+  <g transform="translate(348,314)">
+    <path d="M60 4 V 26" stroke="#2a160c" stroke-width="1.5"/>
+    <path d="M16 32 C 34 12, 86 12, 104 32 L 92 84 H 28 Z" fill="#2a160c" opacity=".1" stroke="#2a160c" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M40 84 V 58 H 80 V 84" fill="none" stroke="#2a160c" stroke-width="1.15"/>
+    <text class="ink" x="60" y="114" text-anchor="middle" font-size="13">国家综合性消防救援</text>
+    <text class="ink-soft" x="60" y="132" text-anchor="middle" font-size="10">Standing rescue force</text>
+  </g>
+
+  <g transform="translate(500,326)">
+    <ellipse cx="52" cy="28" rx="38" ry="14" fill="#2a160c" opacity=".1" stroke="#2a160c" stroke-width="1.3"/>
+    <path d="M14 28 V 58 C 14 72, 90 72, 90 58 V 28" fill="#2a160c" opacity=".07" stroke="#2a160c" stroke-width="1.25"/>
+    <ellipse cx="52" cy="58" rx="38" ry="12" fill="none" stroke="#2a160c" stroke-width="1.15"/>
+    <path d="M52 14 V 0 M 42 6 H 62" stroke="#2a160c" stroke-width="1.25" stroke-linecap="round"/>
+    <text class="ink" x="52" y="96" text-anchor="middle" font-size="15">国防动员</text>
+    <text class="ink-soft" x="52" y="114" text-anchor="middle" font-size="10">Mobilization</text>
+  </g>
+</svg>

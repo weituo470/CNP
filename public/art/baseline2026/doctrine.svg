@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img">
+  <rect width="100%" height="100%" fill="#f7f4ee"/>
+  <rect x="28" y="28" width="1144" height="744" fill="none" stroke="#1b2430" stroke-opacity="0.18" stroke-width="1"/>
+  <rect x="36" y="36" width="1128" height="728" fill="none" stroke="#8a3b32" stroke-opacity="0.35" stroke-width="1.2"/>
+  
+  <text x="64" y="90" fill="#8a3b32" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="4">OFFICIAL  PUBLIC  VOCABULARY</text>
+  <text x="64" y="140" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="32">现代化，被写成一套可以公开讲述的规划</text>
+  <g font-family="Noto Serif SC, serif" fill="#1b2430">
+    <rect x="80" y="200" width="480" height="120" fill="#fff" stroke="#8a3b32" stroke-width="1.2"/>
+    <text x="320" y="250" text-anchor="middle" font-size="28">世界一流军队</text>
+    <text x="320" y="282" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="13">world-class military</text>
+    <rect x="640" y="200" width="480" height="120" fill="#fff" stroke="#3d5a6c" stroke-width="1.2"/>
+    <text x="880" y="250" text-anchor="middle" font-size="26">机械化 信息化 智能化</text>
+    <text x="880" y="282" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="13">mechanization · informatization · intelligentization</text>
+    <rect x="80" y="360" width="480" height="120" fill="#fff" stroke="#8a7348" stroke-width="1.2"/>
+    <text x="320" y="410" text-anchor="middle" font-size="28">联合作战</text>
+    <text x="320" y="442" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="13">joint operations</text>
+    <rect x="640" y="360" width="480" height="120" fill="#fff" stroke="#1b2430" stroke-width="1.2"/>
+    <text x="880" y="410" text-anchor="middle" font-size="24">习近平强军思想</text>
+    <text x="880" y="442" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="13">official public framing only</text>
+  </g>
+  <text x="64" y="560" fill="#5a6570" font-family="Noto Serif SC, serif" font-size="18">对照第一章：那时候，谋略被写成可以传授的国家技艺。</text>
+  <text x="64" y="592" fill="#5a6570" font-family="Inter, sans-serif" font-size="16">Then, strategy became a written state craft. Now, modernization is articulated as public programs.</text>
+  
+  <g transform="translate(1060,120) rotate(-12)">
+    <circle r="34" fill="none" stroke="#8a3b32" stroke-width="2.4"/>
+    <circle r="28" fill="none" stroke="#8a3b32" stroke-width="0.8"/>
+    <text text-anchor="middle" y="6" fill="#8a3b32" font-family="Noto Serif SC, Songti SC, serif" font-size="18" letter-spacing="4">示意</text>
+  </g>
+  
+  <text x="64" y="760" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="2">只提公开词汇与已展示装备，不发明未公布项目</text>
+  <text x="64" y="778" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1">Public vocabulary and displayed systems only; no invented programs</text>
+
+
+</svg>

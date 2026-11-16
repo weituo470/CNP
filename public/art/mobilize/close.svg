@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-hidden="true">
+  <defs>
+    <style>
+      .ink { font-family: "Noto Serif SC", "EB Garamond", "Songti SC", serif; fill: #2a160c; }
+      .ink-soft { font-family: "Noto Serif SC", "EB Garamond", "Songti SC", serif; fill: #5a3a22; }
+    </style>
+  </defs>
+  <ellipse cx="320" cy="470" rx="280" ry="32" fill="#2a160c" opacity=".08"/>
+  <path d="M90 250 C 200 210, 260 220, 320 248 C 390 278, 450 230, 550 210" fill="none" stroke="#2a160c" stroke-width="1.25" opacity=".4"/>
+  <path d="M40 400 C 160 360, 300 420, 460 370 C 540 348, 600 380, 640 360" fill="none" stroke="#2a160c" stroke-width="1.05" opacity=".2"/>
+
+  <!-- ding -->
+  <g transform="translate(40,100)">
+    <path d="M36 90 C 36 56, 164 56, 164 90 L 152 168 C 152 192, 48 192, 48 168 Z" fill="#2a160c" opacity=".12" stroke="#2a160c" stroke-width="1.7" stroke-linejoin="round"/>
+    <path d="M36 90 H 164" stroke="#2a160c" stroke-width="1.35"/>
+    <path d="M64 168 V 202 M 136 168 V 202" stroke="#2a160c" stroke-width="1.7" stroke-linecap="round"/>
+    <path d="M70 56 C 70 34, 98 24, 102 56 M 102 56 C 102 24, 130 34, 130 56" fill="none" stroke="#2a160c" stroke-width="1.5"/>
+    <path d="M70 120 H 130 M 78 140 H 122" stroke="#2a160c" stroke-width=".9" opacity=".45"/>
+    <text class="ink" x="100" y="236" text-anchor="middle" font-size="18">战国章</text>
+    <text class="ink-soft" x="100" y="258" text-anchor="middle" font-size="13">户籍 · 粮仓 · 县制</text>
+    <text class="ink-soft" x="100" y="278" text-anchor="middle" font-size="12">更早的国家机器</text>
+  </g>
+
+  <!-- winter pass / pines -->
+  <g transform="translate(230,78)">
+    <path d="M10 190 C 50 80, 90 70, 130 160 C 155 80, 200 90, 220 190 Z" fill="#2a160c" opacity=".12" stroke="#2a160c" stroke-width="1.5"/>
+    <path d="M86 190 V 70" stroke="#2a160c" stroke-width="1.7"/>
+    <path d="M86 100 L 54 130 M 86 100 L 118 130 M 86 82 L 58 110 M 86 82 L 114 110 M 86 118 L 62 144 M 86 118 L 110 144" stroke="#2a160c" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M142 190 V 96" stroke="#2a160c" stroke-width="1.45"/>
+    <path d="M142 116 L 118 140 M 142 116 L 166 140 M 142 102 L 122 122 M 142 102 L 162 122" stroke="#2a160c" stroke-width="1.1" stroke-linecap="round"/>
+    <text class="ink" x="116" y="258" text-anchor="middle" font-size="18">抗美援朝</text>
+    <text class="ink-soft" x="116" y="280" text-anchor="middle" font-size="13">战时动员</text>
+    <text class="ink-soft" x="116" y="300" text-anchor="middle" font-size="12">与平时灾害动员对照</text>
+  </g>
+
+  <!-- typological vessel -->
+  <g transform="translate(430,116)">
+    <path d="M8 110 C 40 80, 110 76, 168 104 L 150 138 C 108 154, 56 154, 20 136 Z" fill="#2a160c" opacity=".12" stroke="#2a160c" stroke-width="1.55" stroke-linejoin="round"/>
+    <path d="M86 104 V 48" stroke="#2a160c" stroke-width="1.4"/>
+    <path d="M86 54 L 126 82" stroke="#2a160c" stroke-width="1.25"/>
+    <path d="M16 160 C 56 148, 110 164, 168 150" fill="none" stroke="#2a160c" stroke-width="1.15" opacity=".45"/>
+    <circle cx="148" cy="40" r="13" fill="none" stroke="#2a160c" stroke-width="1.15" opacity=".55"/>
+    <text class="ink" x="90" y="220" text-anchor="middle" font-size="16">2026 军力基线</text>
+    <text class="ink-soft" x="90" y="242" text-anchor="middle" font-size="13">国防动员 · 投送</text>
+    <text class="ink-soft" x="90" y="262" text-anchor="middle" font-size="12">军民两用能力</text>
+  </g>
+
+  <text class="ink" x="320" y="58" text-anchor="middle" font-size="16">留给其他各章的接口</text>
+</svg>

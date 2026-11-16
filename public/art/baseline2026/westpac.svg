@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img">
+  <rect width="100%" height="100%" fill="#f7f4ee"/>
+  <rect x="28" y="28" width="1144" height="744" fill="none" stroke="#1b2430" stroke-opacity="0.18" stroke-width="1"/>
+  <rect x="36" y="36" width="1128" height="728" fill="none" stroke="#8a3b32" stroke-opacity="0.35" stroke-width="1.2"/>
+  
+  <text x="64" y="90" fill="#8a3b32" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="4">WIDE  FRAMING  ·  NOT  A  TARGETING  PLOT</text>
+  <text x="64" y="140" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="32">这是取景，不是作战图</text>
+  <g transform="translate(80,200)">
+    <ellipse cx="520" cy="250" rx="480" ry="250" fill="none" stroke="#3d5a6c" stroke-width="1.5" stroke-dasharray="8 8"/>
+    <path d="M140,200 C 260,80 460,40 700,90 C 880,130 980,220 900,320 C 820,410 560,430 320,380 C 200,350 120,280 140,200"
+          fill="none" stroke="#3d5a6c" stroke-width="3"/>
+    <text x="520" y="250" text-anchor="middle" fill="#3d5a6c" font-family="Noto Serif SC, serif" font-size="28">西太平洋</text>
+    <text x="520" y="280" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="14">WESTERN PACIFIC  ·  framing only</text>
+  </g>
+  <text x="64" y="620" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="18">官方语言：防御性国防政策，捍卫主权、安全、发展利益（2019 白皮书）。</text>
+  <text x="64" y="650" fill="#3d5a6c" font-family="Noto Serif SC, serif" font-size="18">外部分析另谈近海能力与力量投送工具。两种声音都放在桌上。</text>
+  
+  <g transform="translate(1060,120) rotate(-12)">
+    <circle r="34" fill="none" stroke="#8a3b32" stroke-width="2.4"/>
+    <circle r="28" fill="none" stroke="#8a3b32" stroke-width="0.8"/>
+    <text text-anchor="middle" y="6" fill="#8a3b32" font-family="Noto Serif SC, Songti SC, serif" font-size="18" letter-spacing="4">示意</text>
+  </g>
+  
+  <text x="64" y="760" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="2">不把岛屿或基地标成军事目标</text>
+  <text x="64" y="778" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1">No island or base is marked as a military objective</text>
+
+
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img">
+  <rect width="100%" height="100%" fill="#f7f4ee"/>
+  <rect x="28" y="28" width="1144" height="744" fill="none" stroke="#1b2430" stroke-opacity="0.18" stroke-width="1"/>
+  <rect x="36" y="36" width="1128" height="728" fill="none" stroke="#8a3b32" stroke-opacity="0.35" stroke-width="1.2"/>
+  
+  <text x="64" y="90" fill="#8a3b32" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="4">WHAT  THE  PUBLIC  RECORD  CAN  DEFEND</text>
+  <text x="64" y="148" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="34">不是无敌神话，也不是数字竞赛</text>
+  <g>
+    <circle cx="240" cy="380" r="90" fill="none" stroke="#8a7348" stroke-width="2"/>
+    <text x="240" y="370" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="20">第一章</text>
+    <text x="240" y="398" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="12">ancient tick</text>
+    <circle cx="600" cy="380" r="90" fill="none" stroke="#3d5a6c" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="600" y="370" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="20">1950–53</text>
+    <text x="600" y="398" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="12">sibling journey</text>
+    <circle cx="960" cy="380" r="90" fill="none" stroke="#8a3b32" stroke-width="2"/>
+    <text x="960" y="370" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="20">2026</text>
+    <text x="960" y="398" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="12">this baseline</text>
+    <line x1="330" y1="380" x2="510" y2="380" stroke="#1b2430" stroke-width="1.2" stroke-dasharray="6 6"/>
+    <line x1="690" y1="380" x2="870" y2="380" stroke="#1b2430" stroke-width="1.2" stroke-dasharray="6 6"/>
+  </g>
+  <text x="64" y="560" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="18">一支规模很大、经过改革、有工业支撑的军队，正处在官方写出的联合化、高科技现代化进程之中。</text>
+  <text x="64" y="592" fill="#5a6570" font-family="Noto Serif SC, serif" font-size="16">许多关键数字，仍然来自外部估计。尺子已经摆正。</text>
+  
+  <g transform="translate(1060,120) rotate(-12)">
+    <circle r="34" fill="none" stroke="#8a3b32" stroke-width="2.4"/>
+    <circle r="28" fill="none" stroke="#8a3b32" stroke-width="0.8"/>
+    <text text-anchor="middle" y="6" fill="#8a3b32" font-family="Noto Serif SC, Songti SC, serif" font-size="18" letter-spacing="4">示意</text>
+  </g>
+  
+  <text x="64" y="760" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="2">公开记录能站住的结论</text>
+  <text x="64" y="778" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1">What the public record can actually defend</text>
+
+
+</svg>

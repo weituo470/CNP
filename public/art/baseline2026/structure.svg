@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img">
+  <rect width="100%" height="100%" fill="#f7f4ee"/>
+  <rect x="28" y="28" width="1144" height="744" fill="none" stroke="#1b2430" stroke-opacity="0.18" stroke-width="1"/>
+  <rect x="36" y="36" width="1128" height="728" fill="none" stroke="#8a3b32" stroke-opacity="0.35" stroke-width="1.2"/>
+  
+  <text x="64" y="90" fill="#8a3b32" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="4">OFFICIAL  STRUCTURE  ·  官方结构</text>
+  <text x="64" y="140" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="32">中央军委  —  五大战区  —  军种与兵种</text>
+  
+    <rect x="430" y="180" width="340" height="70" fill="#fff" stroke="#1b2430" stroke-width="1.2"/>
+    <text x="600.0" y="208" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="18">中央军事委员会</text>
+    <text x="600.0" y="230" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11">Central Military Commission  ·  official</text>
+    
+  <line x1="600" y1="250" x2="600" y2="290" stroke="#1b2430" stroke-width="1.2"/>
+  <line x1="140" y1="290" x2="1060" y2="290" stroke="#1b2430" stroke-width="1.2"/>
+  <line x1="140" y1="290" x2="140" y2="320" stroke="#1b2430" stroke-width="1.2"/><line x1="370" y1="290" x2="370" y2="320" stroke="#1b2430" stroke-width="1.2"/><line x1="600" y1="290" x2="600" y2="320" stroke="#1b2430" stroke-width="1.2"/><line x1="830" y1="290" x2="830" y2="320" stroke="#1b2430" stroke-width="1.2"/><line x1="1060" y1="290" x2="1060" y2="320" stroke="#1b2430" stroke-width="1.2"/>
+  
+    <rect x="50" y="320" width="180" height="80" fill="#fff" stroke="#1b2430" stroke-width="1.2"/>
+    <text x="140.0" y="348" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="18">东部</text>
+    <text x="140.0" y="370" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11">Eastern  ·  regional</text>
+    
+  
+    <rect x="280" y="320" width="180" height="80" fill="#fff" stroke="#1b2430" stroke-width="1.2"/>
+    <text x="370.0" y="348" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="18">南部</text>
+    <text x="370.0" y="370" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11">Southern  ·  regional</text>
+    
+  
+    <rect x="510" y="320" width="180" height="80" fill="#fff" stroke="#1b2430" stroke-width="1.2"/>
+    <text x="600.0" y="348" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="18">西部</text>
+    <text x="600.0" y="370" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11">Western  ·  regional</text>
+    
+  
+    <rect x="740" y="320" width="180" height="80" fill="#fff" stroke="#1b2430" stroke-width="1.2"/>
+    <text x="830.0" y="348" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="18">北部</text>
+    <text x="830.0" y="370" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11">Northern  ·  regional</text>
+    
+  
+    <rect x="970" y="320" width="180" height="80" fill="#fff" stroke="#1b2430" stroke-width="1.2"/>
+    <text x="1060.0" y="348" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="18">中部</text>
+    <text x="1060.0" y="370" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11">Central  ·  regional</text>
+    
+  <text x="64" y="450" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="12">2016-02-01 official theater reform  ·  pins are regional centroids, not HQs</text>
+  
+    <rect x="80" y="500" width="240" height="90" fill="#fff" stroke="#1b2430" stroke-width="1.2"/>
+    <text x="200.0" y="528" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="18">陆军 / 海军 / 空军 / 火箭军</text>
+    <text x="200.0" y="550" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11">Services  ·  official names</text>
+    
+  
+    <rect x="360" y="500" width="760" height="90" fill="#fff" stroke="#1b2430" stroke-width="1.2"/>
+    <text x="740.0" y="528" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="18">军事航天部队  ·  网络空间部队  ·  信息支援部队  ·  联勤保障部队</text>
+    <text x="740.0" y="550" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11">Arms after the 19 Apr 2024 official announcement  ·  SSF designation abolished</text>
+    
+  
+  <g transform="translate(1060,120) rotate(-12)">
+    <circle r="34" fill="none" stroke="#8a3b32" stroke-width="2.4"/>
+    <circle r="28" fill="none" stroke="#8a3b32" stroke-width="0.8"/>
+    <text text-anchor="middle" y="6" fill="#8a3b32" font-family="Noto Serif SC, Songti SC, serif" font-size="18" letter-spacing="4">示意</text>
+  </g>
+  
+  <text x="64" y="760" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="2">示意结构图，不是总部或设施地图</text>
+  <text x="64" y="778" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1">A typological org chart, not a headquarters map</text>
+
+
+</svg>

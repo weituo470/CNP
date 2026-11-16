@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img">
+  <rect width="100%" height="100%" fill="#f7f4ee"/>
+  <rect x="28" y="28" width="1144" height="744" fill="none" stroke="#1b2430" stroke-opacity="0.18" stroke-width="1"/>
+  <rect x="36" y="36" width="1128" height="728" fill="none" stroke="#8a3b32" stroke-opacity="0.35" stroke-width="1.2"/>
+  
+  <text x="64" y="90" fill="#8a3b32" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="4">SHARED  TIME  RULER</text>
+  <text x="64" y="148" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="36">同一颗地球上的三条刻度</text>
+  <line x1="80" y1="420" x2="1120" y2="420" stroke="#1b2430" stroke-width="2"/>
+  <g>
+    <circle cx="220" cy="420" r="10" fill="#8a7348"/>
+    <line x1="220" y1="420" x2="220" y2="360" stroke="#8a7348" stroke-width="2"/>
+    <text x="220" y="340" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="22">战国</text>
+    <text x="220" y="460" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="13">c. 475–221 BCE</text>
+    <text x="220" y="482" text-anchor="middle" fill="#5a6570" font-family="Noto Serif SC, serif" font-size="14">第一章 · 已完成</text>
+  </g>
+  <g>
+    <circle cx="600" cy="420" r="10" fill="none" stroke="#3d5a6c" stroke-width="2" stroke-dasharray="3 3"/>
+    <line x1="600" y1="420" x2="600" y2="360" stroke="#3d5a6c" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="600" y="340" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="22">1950–53</text>
+    <text x="600" y="460" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="13">Korea  ·  sibling journey</text>
+    <text x="600" y="482" text-anchor="middle" fill="#5a6570" font-family="Noto Serif SC, serif" font-size="14">平行导览接口 · 本章不展开</text>
+  </g>
+  <g>
+    <circle cx="980" cy="420" r="10" fill="#8a3b32"/>
+    <line x1="980" y1="420" x2="980" y2="360" stroke="#8a3b32" stroke-width="2"/>
+    <text x="980" y="340" text-anchor="middle" fill="#1b2430" font-family="Noto Serif SC, serif" font-size="22">2026</text>
+    <text x="980" y="460" text-anchor="middle" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="13">This journey</text>
+    <text x="980" y="482" text-anchor="middle" fill="#5a6570" font-family="Noto Serif SC, serif" font-size="14">本线 · 公开基线</text>
+  </g>
+  
+  <g transform="translate(1060,120) rotate(-12)">
+    <circle r="34" fill="none" stroke="#8a3b32" stroke-width="2.4"/>
+    <circle r="28" fill="none" stroke="#8a3b32" stroke-width="0.8"/>
+    <text text-anchor="middle" y="6" fill="#8a3b32" font-family="Noto Serif SC, Songti SC, serif" font-size="18" letter-spacing="4">示意</text>
+  </g>
+  
+  <text x="64" y="760" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="14" letter-spacing="2">三种能力的后续刻度，不是战争年表</text>
+  <text x="64" y="778" fill="#5a6570" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="1">Later ticks of the same three capacities, not a war chronicle</text>
+
+
+</svg>

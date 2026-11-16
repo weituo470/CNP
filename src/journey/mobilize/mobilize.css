@@ -1,0 +1,48 @@
+/* Mobilize chapter chrome. The centered torn parchment, typography, plate
+   blend, vignette, and close/open motion come from src/styles/codex.css
+   (imported by JourneyCodex; classes are reused, that file is not edited). */
+
+.mobilize-shell {
+  --brief-red: #b42318;
+  --brief-teal: #2a6f7a;
+}
+
+.mobilize-shell .journey-brand small,
+.mobilize-shell .journey-window {
+  color: rgba(176, 214, 214, 0.86);
+}
+
+.mobilize-shell .source-tag {
+  display: inline-block;
+  margin: 0 0 8px;
+  padding: 1px 7px;
+  border: 1px solid currentColor;
+  font-family: "IBM Plex Mono", Consolas, monospace;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.mobilize-shell .source-tag.is-official {
+  color: var(--brief-red);
+  background: rgba(180, 35, 24, 0.08);
+}
+
+.mobilize-shell .source-tag.is-estimate {
+  color: #8a5a12;
+  background: rgba(180, 130, 40, 0.12);
+}
+
+.mobilize-shell .source-tag.is-typological {
+  color: var(--brief-teal);
+  background: rgba(42, 111, 122, 0.08);
+}
+
+.mobilize-shell .journey-globe-label.is-mobilize {
+  border-color: rgba(90, 170, 170, 0.45);
+  background: rgba(8, 18, 24, 0.72);
+}
+
+.mobilize-shell .journey-globe-label.is-mobilize span {
+  color: rgba(176, 214, 214, 0.86);
+}
